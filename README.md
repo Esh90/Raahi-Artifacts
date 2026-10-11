@@ -24,9 +24,21 @@ This repository holds the supporting material for Raahi's entry to the **4th AIE
 
 The application source code (Android app and AI server) is kept in a separate repository and is available to the judges on request. The working prototype will be demonstrated live at the event.
 
-## Overview
+## The problem
 
-A white cane senses about a metre ahead at ground level, and GPS apps stop working at the door. Indoors (universities, hospitals, offices) a visually impaired person still has to guess where the chair, the open door or the person in the corridor is.
+- **At least 2.2 billion people** worldwide live with a vision impairment, and most of them live in low- and middle-income countries *(WHO)*.
+- In **Pakistan**, about **9 million people aged 50 and over** have some vision impairment, and about **484,000 of them are blind** *(Third National Blindness Survey, 2019–21)*.
+
+People who are blind or have low vision need to move around safely every day, and indoors (homes, hospitals, universities, offices) the tools they have fall short:
+
+- A **white cane** detects only what is within arm's reach at ground level. It cannot say how far away the next obstacle is or which way to step.
+- **GPS apps** stop working indoors.
+- **AI apps that describe a photo** say what is in the picture, not how far away it is or where to step, and most of them do not speak Urdu.
+- **Smart glasses and smart canes** cost roughly **US$850–4,250**, which most people in Pakistan cannot afford.
+
+**No affordable, Urdu-speaking tool tells a visually impaired person, in real time, what is ahead, how far away it is and which way to move.**
+
+## Overview
 
 Raahi turns an Android phone into a guide. The phone streams its camera to the Raahi server. The server **recognises objects**, **measures how far away they are**, decides the safest way forward and replies with short spoken instructions in a natural female voice, in **Urdu or English**:
 
